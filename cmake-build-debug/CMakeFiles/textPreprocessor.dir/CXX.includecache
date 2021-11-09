@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/undefined/CLionProjects/textPreprocessor/Text_Preprocessor.cpp
+Text_Preprocessor.h
+/Users/undefined/CLionProjects/textPreprocessor/Text_Preprocessor.h
+bits/stdc++.h
+-
+
+/Users/undefined/CLionProjects/textPreprocessor/Text_Preprocessor.h
+bits/stdc++.h
+-
+
