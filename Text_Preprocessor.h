@@ -12,6 +12,7 @@ using namespace std;
 class Text_Preprocessor {
 public:
     string file_name;
+    ifstream cop;
     vector<string>processedData;
 
     Text_Preprocessor(const string &fileName);
@@ -19,6 +20,8 @@ public:
     void preprocess_text();
 
     string search_word(const std::string &str);
+
+    virtual ~Text_Preprocessor();
 };
 
 

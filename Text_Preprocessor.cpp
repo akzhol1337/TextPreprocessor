@@ -8,7 +8,6 @@
 using namespace std;
 
 void Text_Preprocessor::preprocess_text() {
-    ifstream cop;
     cop.open(file_name);
 
     string data;
@@ -85,3 +84,7 @@ string Text_Preprocessor::search_word(const std::string &str) {
 }
 
 Text_Preprocessor::Text_Preprocessor(const string &fileName) : file_name(fileName) {}
+
+Text_Preprocessor::~Text_Preprocessor() {
+    cop.close();
+}
